@@ -1,4 +1,3 @@
-import React from "react";
 import { Brain, Code, Sparkles } from "lucide-react";
 import profileImage from "../assets/profile.jpeg";
 import { HoverBorderGradient } from "../components/ui/hover-border-gradient";

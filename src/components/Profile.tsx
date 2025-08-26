@@ -1,12 +1,12 @@
 import { Button } from "./ui/button";
-import { ArrowDown, Github, Linkedin, Mail, Target } from "lucide-react";
+import {  Github, Linkedin, Mail } from "lucide-react";
 import heroBackground from "@/assets/asset2.png";
 import { Vortex } from "./ui/vortex";
 
 const Profile = () => {
-    const scrollToAbout = () => {
-        document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
-    };
+    // const scrollToAbout = () => {
+    //     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+    // };
     const scrollToGetintouch = () => {
         document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
     };
